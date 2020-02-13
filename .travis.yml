@@ -1,5 +1,6 @@
 language: node_js
 node_js:
+  - 10.18
   - 10
   - 12
   - stable
@@ -16,7 +17,7 @@ script:
 
 branches:
   only:
-    - master
+    - test/wpt/cors/credentials-flag/test-on-node-v10.18
 
 matrix:
   include:
